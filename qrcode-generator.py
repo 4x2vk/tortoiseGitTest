@@ -16,7 +16,7 @@ def myClick():
     url = f_name.get()
     qr.add_data(url)
     qr.make(fit=True)
-    img = qr.make_image(fill_color="black", back_color="white").convert('RGB')
+    img = qr.make_image(fill_color="green", back_color="white").convert('RGB')
     #saving to current folder
     fileName = "qr-code-example.png"
     img.save(fileName)

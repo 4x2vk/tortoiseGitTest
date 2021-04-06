@@ -24,7 +24,7 @@ def myClick():
 name = Entry(root, width=30)
 name.grid(row=0, column=1, padx=20, pady=(10, 0))
 
-label = Label(root, text='Enter URL')
+label = Label(root, text='Enter WEBSITEURL')
 label.grid(row=0, column=0, pady=(10, 0))
 
 submit_btn = Button(root, text="Generate", command=myClick)
